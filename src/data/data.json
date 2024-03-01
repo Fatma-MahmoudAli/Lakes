@@ -1,0 +1,180 @@
+{
+
+    "features": [
+    
+      {
+        "type": "Feature",
+        "id" : 1,
+        "properties": {
+            "id" :1 , 
+            "name" : "Qarun" , 
+            "location" : "El-Fayoum Governorate" , 
+            "fish": { "fishType": "Mullet" , "count" : 1424} ,
+            "City":"El-Fayoum",
+            "Totalproduction": 268732,
+            "Gear":"Gill Net"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3385336.66,"longitude":3427697.12} 
+        }
+      },
+    
+      {
+        "type": "Feature",
+        "id" : 2,
+        "properties": {
+            "id" : 2, 
+            "name" : "Burullus Lake" ,
+            "location" : "Kafr El Sheikh Governorate" , 
+            "fish": {"fishType":"Tilapia" , "count": 30000},
+            "City":"Kafr El Sheikh",
+            "Totalproduction": 408732,
+            "Gear":"Fishing Net"
+                        
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3436303.0,"longitude":3697717.680324}  
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 3,
+        "properties": {
+            "id" : 3, 
+            "name" : "Al Manzalah Lake" ,
+            "location":"Al Amarenah, El Manzala, Dakahlia Governorate",
+            "City":"Dakahlia",
+            "Totalproduction": 1008732,
+            "Gear":"Fishing Net",
+            "fish": {"fishType":"Tilapia" , "count": 32026}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3565023.0,"longitude":3667142.9}
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 4,
+        "properties": {
+            "id" : 4 , 
+            "name" : "Lake Mariout" ,
+            "location" :"Qetaa at Tarik as Sahrawi, Alexandria Governorate", 
+            "City":"Alexandria",
+            "Totalproduction": 908732,
+            "Gear":"Fishing Net",
+            "fish": {"fishType": "Tilapia" , "count": 3284}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3344120.0,"longitude":3647575.0} 
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 5,
+        "properties": {
+            "id" : 5 ,
+            "name" : "Lake Idku" ,
+            "location":" El Beheira Governorate", 
+            "City":"El Beheira",
+            "Totalproduction": 408732,
+            "Gear":"Fishing Net",
+            "fish": {"fishType": "Tilapia" , "count" : 6221}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3363840.7,"longitude":3665079.1} 
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 6,
+        "properties": {
+            "id" : 6 , 
+            "name" : "Bardawil Lake" ,
+            "location":"North Sinai Governorate", 
+            "City":"North Sinai",
+            "Totalproduction": 108032,
+            "Gear":"Crab Trap",
+            "fish": { "fishType": "Crab" , "count" : 1202}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3703832.6,"longitude":3649485.9} 
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 7,
+        "properties": {
+          "id" : 7 , 
+            "name" : "Dakhla oasis" ,
+            "location":"Al Rashada, Al Wahat Al Dakhla, New Valley Governorate",
+            "City":"Al Wahat Al Dakhla",
+            "Totalproduction": 1032,
+            "Gear":"Fishing Net",
+            "fish": {"fishType":"Tilapia" , "count" : 263}
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3222890.9,"longitude":2941296.8} 
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 8,
+        "properties": {
+            "id" : 8, 
+            "name" : "Great Bitter Lake" ,
+            "location":"Great Bitter Lake, Ismailia Governorate" , 
+            "City":"Ismailia",
+            "Totalproduction": 8732,
+            "Gear":"Cage",
+            "fish": { "fishType": "Oyster" , "count" : 1312 }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3604158.8,"longitude":3546678.1} 
+        }
+      },
+      {
+        "type": "Feature",
+        "id" : 9,
+        "properties": {
+          "id" : 9,
+            "name" : "Toshka Lake" , 
+            "location":"danau Toshka, Al Wadi Al Gadid Desert, New Valley Governorate",
+            "City":"Al wadi Al Gadid",
+            "Totalproduction": 18732,
+            "Gear":"Fishing Net",
+            "fish": {"fishType":"Tilapia"  , "count": 2602 }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates":{"latitude":3402670.8,"longitude":2683856.9}
+        }
+      } ,
+      {
+        "type": "Feature",
+        "id" : 10,
+        "properties": {
+            "id" : 10, 
+            "name" : "Nasser" , 
+            "location" : "Aswan Governorate" ,
+            "City":"Aswan",
+            "Totalproduction": 120732,
+            "Gear":"Fishing Net",
+            "fish": {"fishType": "Tilapia" , "count" : 15940}
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates":{"latitude":3638402.55,"longitude":2630656.77} 
+        }
+      }
+    
+      
+    ]
+}

@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+*{
+
+  color: white;
+  font-family: fantasy;
+  
+} 
+h6{
+  color: gray;
+}
+h5{
+  margin-left: 50px;
+  color: rgb(230, 103, 80);
+}
+h4{
+  color: rgb(109, 200, 228);
+}
+section{
+  padding: 12px;
+  border: 2px solid rgb(68, 66, 66);
+  border-radius: 15px;
+
+}
+.container-fluid{
+  background-color: black;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+#map{
+  height: 60vh;
+}
+#list {
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+.list:hover{
+background-color: rgb(61, 56, 56);
+border-radius: 5px;
+cursor: pointer;
+}
+ol li{
+  list-style-image: url(/public/location.png);
+  font-size: 20px;
+  letter-spacing: 1px;
+
+ 
 }
 
-.App-logo {
-  height: 40vmin;
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  color: black;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  min-width: 290px;
+}
+.ol-popup:after, .ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  letter-spacing: 2px;
+  content: " ";
+  color: black;
+  height: 0;
+  width: 0;
+  position: absolute;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
 }
-
-.App-link {
-  color: #61dafb;
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ol-popup-closer:after {
+  content: "✖";
+  
+}
+label{
+  margin-bottom: -60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(64, 134, 64);
+}
+span{
+  color: rgb(57, 167, 85);
+  font-weight: bold;
 }
